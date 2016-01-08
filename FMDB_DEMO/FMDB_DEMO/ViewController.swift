@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // TODO: Load Data from database
+        // TODO: Load data from database
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             (action, indexPath) -> Void in
             
             let toDelId = self.contacts[indexPath.row].id
-            // TODO: Delete from Database
+            // TODO: Delete from database
             
             // Delete from memory
             self.contacts.removeAtIndex(indexPath.row)

@@ -30,22 +30,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="n3S-Dx-lx9">
-                                                    <rect key="frame" x="8" y="8" width="584" height="64"/>
+                                                    <rect key="frame" x="8" y="8" width="576" height="64"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDr-dz-5ql">
-                                                            <rect key="frame" x="0.0" y="0.0" width="17" height="21"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="16.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siB-zv-ud6">
-                                                            <rect key="frame" x="0.0" y="21" width="45" height="21"/>
+                                                            <rect key="frame" x="0.0" y="20.5" width="45" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOk-t2-aBw">
-                                                            <rect key="frame" x="0.0" y="41" width="44" height="23"/>
+                                                            <rect key="frame" x="0.0" y="41" width="43.5" height="23"/>
                                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -54,7 +54,7 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="n3S-Dx-lx9" secondAttribute="trailing" id="Oxw-JB-IaY"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="n3S-Dx-lx9" secondAttribute="trailing" constant="8" id="Oxw-JB-IaY"/>
                                                 <constraint firstItem="n3S-Dx-lx9" firstAttribute="leading" secondItem="7oE-7f-C8B" secondAttribute="leadingMargin" id="RTA-PD-BAG"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="n3S-Dx-lx9" secondAttribute="bottom" id="Zdl-pm-y2R"/>
                                                 <constraint firstItem="n3S-Dx-lx9" firstAttribute="top" secondItem="7oE-7f-C8B" secondAttribute="topMargin" id="uXR-35-AAa"/>
@@ -67,6 +67,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Eew-bn-jwF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="IeD-y6-IkW"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
