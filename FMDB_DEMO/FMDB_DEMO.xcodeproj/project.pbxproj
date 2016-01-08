@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664BFDC91C3F567F00237CC7 /* db_demo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 664BFDC81C3F566400237CC7 /* db_demo.sqlite */; };
 		666407121C3F48CF0013C3B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666407111C3F48CF0013C3B5 /* AppDelegate.swift */; };
 		666407141C3F48CF0013C3B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666407131C3F48CF0013C3B5 /* ViewController.swift */; };
 		666407171C3F48CF0013C3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666407151C3F48CF0013C3B5 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664BFDC81C3F566400237CC7 /* db_demo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db_demo.sqlite; sourceTree = "<group>"; };
 		6664070E1C3F48CF0013C3B5 /* FMDB_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDB_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666407111C3F48CF0013C3B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666407131C3F48CF0013C3B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				666407181C3F48CF0013C3B5 /* Assets.xcassets */,
 				6664071A1C3F48CF0013C3B5 /* LaunchScreen.storyboard */,
 				6664071D1C3F48CF0013C3B5 /* Info.plist */,
+				664BFDC81C3F566400237CC7 /* db_demo.sqlite */,
 			);
 			path = FMDB_DEMO;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664BFDC91C3F567F00237CC7 /* db_demo.sqlite in Resources */,
 				6664071C1C3F48CF0013C3B5 /* LaunchScreen.storyboard in Resources */,
 				666407191C3F48CF0013C3B5 /* Assets.xcassets in Resources */,
 				666407171C3F48CF0013C3B5 /* Main.storyboard in Resources */,
@@ -346,6 +350,7 @@
 				666407221C3F48CF0013C3B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
